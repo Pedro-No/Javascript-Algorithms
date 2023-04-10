@@ -156,7 +156,7 @@ The `length` property returns the number of characters in the string, including 
 Here is an example of using a `for` loop to loop over a string:
 
 ```js
-let str = 'ironhack';
+let str = "ironhack";
 
 for (let i = 0; i < str.length; i++) {
   console.log(str[i]);
@@ -181,11 +181,11 @@ This method returns a boolean value (`true` or `false`) indicating whether the s
 Example:
 
 ```js
-let str = 'hello world';
+let str = "hello world";
 
-console.log(str.includes('hello')); // true
-console.log(str.includes('world')); // true
-console.log(str.includes('bye')); // false
+console.log(str.includes("hello")); // true
+console.log(str.includes("world")); // true
+console.log(str.includes("bye")); // false
 ```
 
   <br>
@@ -195,11 +195,11 @@ You can also use the `indexOf()` method, which returns the index of the first oc
 Example:
 
 ```js
-let str = 'hello world';
+let str = "hello world";
 
-console.log(str.indexOf('h')); // 0
-console.log(str.indexOf('world')); // 6
-console.log(str.indexOf('bye')); // -1
+console.log(str.indexOf("h")); // 0
+console.log(str.indexOf("world")); // 6
+console.log(str.indexOf("bye")); // -1
 ```
 
 [Back to top](#faqs)
@@ -217,7 +217,7 @@ To convert a string to _uppercase_ letters, use the `toUpperCase()` method. The 
 Example:
 
 ```js
-let str = 'ironhack';
+let str = "ironhack";
 
 console.log(str.toUpperCase()); // "IRONHACK"
 ```
@@ -231,7 +231,7 @@ To convert a string to all _lowercase_ letters, you can use the `toLowerCase()` 
 Example:
 
 ```js
-let str = 'IRONHACK';
+let str = "IRONHACK";
 
 console.log(str.toLowerCase()); // "ironhack"
 ```
@@ -251,8 +251,8 @@ You can use a `for` loop to iterate over the characters of the string and add th
 Example:
 
 ```js
-let str = 'drawer';
-let reversed = '';
+let str = "drawer";
+let reversed = "";
 
 for (let i = str.length - 1; i >= 0; i--) {
   reversed += str[i];
